@@ -3,6 +3,7 @@ node_modules/
 .env
 .env.local
 /tmp/
+.auth/
 
 node_modules/
 /test-results/
@@ -47,3 +48,9 @@ test-results
 playwright.env
 /firefox/
 .playwright/
+
+tsconfig.tsbuildinfo
+
+CLAUDE.md
+docs/
+playwright_automation_api/

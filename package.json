@@ -11,13 +11,17 @@
     "db:seed": "npx tsx prisma/seed.ts",
     "db:push": "npx prisma db push",
     "db:studio": "npx prisma studio",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:smoke": "npx playwright test --project=smoke",
+    "test:regression": "npx playwright test --project=regression",
+    "test:report": "npx playwright show-report"
   },
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.6.0",
     "@prisma/client": "^7.6.0",
     "@scalar/nextjs-api-reference": "^0.10.9",
     "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.1",
     "jose": "^6.0.11",
     "mariadb": "^3.5.2",
     "next": "16.2.1",
